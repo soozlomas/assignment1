@@ -1,0 +1,128 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+	box-sizing: border-box;
+}
+
+body {
+	background: #1abc9c;
+	font-family: 'Cardo', serif;
+}
+
+h1, h2 {
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #FFFFFF;
+}
+
+h1 {
+	font-size: 30px;
+	padding-bottom: 5px;
+	border-bottom: 2px solid #FFFFFF;
+}
+
+h2{
+	font-size: 20px;
+	padding-top: 12px;
+}
+
+h3{
+	font-family: 'Cardo', serif;
+	font-size:16px;
+	font-weight: 400;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #FFFFFF;
+	padding-top: 10px;
+}
+
+p{
+	font-size:16px;
+	font-weight: 400;
+	color: #FFFFFF;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+#maincontent {
+	width:80%;
+	margin-top:50px;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+#relevantexperience{
+	width:100%;
+	margin-top:20px;
+	padding: 5px;
+	border-top: 2px dotted #FFFFFF;
+	border-bottom: 2px dotted #FFFFFF;
+}
+
+#leftcontent, #centrecontent, #rightcontent{
+	width:33.333%;
+	float:left;
+	padding: 1.5%;
+}
+
+/*#centrecontent{
+	width:33.333%;
+	float:left;
+	padding: 1.5%;
+}
+
+#rightcontent{
+	width:33.333%;
+	float:left;
+	padding: 1.5%;
+}*/
+
+#linkbutton {
+	width:30%;
+	margin-top:20px;
+	border: 2px solid #FFFF99;
+	padding: 5px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	color: #FFFF99;
+	text-align: center;
+	clear:both;
+}
+
+a:link {
+    color: #FFFF99;
+		text-decoration: none;
+}
+
+a:visited {
+    color: #FFFF99;
+}
+
+a:hover {
+    color: #FFFFFF;
+}
+
+a:active {
+    color: #FFFFFF;
+}
+
+img{
+	 max-width: 100%;
+}
